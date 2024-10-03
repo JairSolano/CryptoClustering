@@ -2,7 +2,7 @@
 
 ### The mission is to use Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes
 
-> Find the Best Value for k by Using the Scaled DataFrame using the elbow method algorithm to find the best value for k. Using the elbow method helps answer the following question: What's the best value for k? 
+> Started with finding the Best Value for k by Using the Scaled DataFrame using the elbow method algorithm to find the best value for k. Using the elbow method helps answer the following question: What's the best value for k? 
 Cluster the Cryptocurrencies with K-Means by Using the Scaled DataFrame
 Initialize the K-means model with best value for k.
 Fit the K-means model by using the scaled DataFrame.
@@ -17,6 +17,7 @@ Create a new DataFrame from the scaled PCA data. Be sure to set the coin_id inde
 
 ### Cluster the Cryptocurrencies with K-means by Using the PCA DataFrame 
 
+> For the big moment, let the clustering begin.
 > Initialize the K-means model with the best value for k.
 Fit the K-means model by using the PCA data
 Predict the clusters for grouping the cryptocurrencies by using the PCA data. Review the resulting array of cluster values.
